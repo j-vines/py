@@ -1,3 +1,4 @@
+#My first python program!
 class User:
     #User has name and id number
     name = ""
