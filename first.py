@@ -13,7 +13,7 @@ class User:
         print("User ID: " + str(self.uid) + "\n")
 
 #main
-name = input("Howdy!\nInput your name: ")
+name = raw_input("Howdy!\nInput your name: ")
 user1 = User(name, 1)
 user1.print_user()
 
